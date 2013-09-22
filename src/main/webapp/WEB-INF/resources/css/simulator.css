@@ -1,0 +1,41 @@
+@import "../render/bootstrap/css/bootstrap.min.css";
+@import "../render/bootstrap/css/bootstrap-theme.min.css";
+@import "../render/flat-ui/css/flat-ui.css";
+
+/*
+ *  导航
+ */
+aside {
+    float: left;
+    height: 100%;
+    margin-right: 20px;
+}
+
+aside li > span.glyphicon {
+    float: left;
+    margin-left: 125px;
+    margin-top: -27px;
+}
+
+aside .slide_button {
+    margin: 10px 0 10px 122px;
+}
+
+aside .glyphicon {
+    cursor: pointer;
+}
+
+/*  header  */
+#main {
+    float: left;
+    margin-top: 20px;
+}
+
+#protocol_management_header {
+    margin-bottom: 20px;
+}
+
+.panel {
+    min-height: 300px;
+}
+
